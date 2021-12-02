@@ -8,6 +8,9 @@ body {
 .text-area h1 {
   font-size: 3rem;
 }
+.image-area img {
+  width: 100%;
+}
 .feature .card {
   border: none;
 }
