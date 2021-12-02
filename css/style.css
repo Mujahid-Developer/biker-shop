@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap");
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -6,12 +6,12 @@ body {
   background-color: #264653;
 }
 .text-area h1 {
-  font-size: 3rem;
+  font-size: 3em;
 }
 .image-area img {
   width: 100%;
 }
-.feature .card {
+.feature-images .card {
   border: none;
 }
 hr {
