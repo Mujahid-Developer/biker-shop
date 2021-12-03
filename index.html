@@ -83,7 +83,12 @@
               amet sint. Velit officia consequat duis enim velit mollit.
               Exercitation veniam consequat sunt nostrud amet.
             </p>
-            <button class="btn btn-primary btn-lg mt-4 fs-normal">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg mt-4 fs-normal"
+              data-bs-toggle="modal"
+              data-bs-target="#myModal"
+            >
               Purchase
             </button>
           </div>
@@ -94,6 +99,41 @@
           </div>
         </div>
       </main>
+
+      <!-- Button to Open the Modal -->
+
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header border-white">
+              <h4 class="modal-title">Thank You</h4>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              Your product has been added in your cart
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer border-white">
+              <button
+                type="button"
+                class="btn btn-danger"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Hero Container End Here -->
 
