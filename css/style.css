@@ -50,3 +50,7 @@ hr {
   border-color: none;
   height: 90px;
 }
+footer {
+  height: auto;
+  background-color: #0c0c0c;
+}
