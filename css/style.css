@@ -16,7 +16,7 @@ body {
 }
 hr {
   width: 100px;
-  color: rgb(255, 131, 15);
+  color: #ff830f;
   margin: auto;
 }
 .feature-title {
@@ -27,4 +27,26 @@ hr {
 }
 .feature-images .card:hover {
   filter: none;
+}
+.btn-outline-primary {
+  color: #ff830f;
+  border-color: #ff830f;
+}
+.btn-outline-primary:hover {
+  color: #ffffff;
+  border-color: #ff830f;
+  background-color: #ff830f;
+}
+.btn-primary {
+  background-color: #ff830f;
+  border-color: #ff830f;
+  width: 170px;
+}
+.btn-primary:hover {
+  background-color: #e26d00;
+  border-color: #e26d00;
+}
+.card-header {
+  border-color: none;
+  height: 90px;
 }
